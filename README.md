@@ -1,4 +1,4 @@
-#HOUSE PRICE PREDICTION USING LINEAR REGRESSION
+##HOUSE PRICE PREDICTION USING LINEAR REGRESSION
 
 Project Description:
 
@@ -73,3 +73,44 @@ The Linear Regression model effectively predicts house prices based on available
 Avg. Area Income and Number of Rooms are the most influential factors in determining house prices.
 
 The model's RMSE of 102,278 suggests that while predictions are reasonably accurate, incorporating more features (like location specifics, crime rates, or proximity to amenities) could further improve predictions.
+
+
+
+
+##Iris Flower Classification
+Project Description: 
+This project focuses on classifying iris flowers into three species—Setosa, Versicolor, and Virginica—based on four features: sepal length, sepal width, petal length, and petal width. Using Python and machine learning, we analyze the dataset, build predictive models, and derive meaningful insights.
+
+Python Libraries Used
+Pandas – For data loading, manipulation, and exploratory data analysis (EDA).
+NumPy – For numerical computations and handling arrays.
+Matplotlib & Seaborn – For visualizing data distributions and relationships.
+Scikit-learn – For preprocessing data, building machine learning models, and evaluation.
+Dataset Overview
+The Iris dataset, a well-known dataset in machine learning, consists of 150 samples with the following attributes:
+
+Sepal Length (cm)
+Sepal Width (cm)
+Petal Length (cm)
+Petal Width (cm)
+Species (Target Variable - Setosa, Versicolor, Virginica)
+Data Analysis Summary
+EDA (Exploratory Data Analysis):
+Checked for missing values (None found).
+Used histograms and pair plots to visualize feature distributions.
+Observed that petal length and petal width provide strong separation between species.
+Correlation Analysis:
+Petal length and petal width are highly correlated with species classification.
+Sepal width shows the least variation across species.
+Machine Learning Models Applied:
+Logistic Regression, Decision Tree, Random Forest, and K-Nearest Neighbors (KNN).
+Accuracy comparison using cross-validation.
+Random Forest achieved the highest accuracy (~97%).
+Insights & Key Findings
+Setosa species is distinctly separable from Versicolor and Virginica based on petal features.
+Versicolor and Virginica show some overlap in sepal features, requiring more advanced classification techniques.
+Feature importance analysis revealed that petal width is the most significant predictor.
+Conclusion
+The Iris dataset provides an excellent case study for classification problems. Through EDA, visualization, and machine learning models, we successfully classified iris species with high accuracy. This project demonstrates the power of feature analysis, data visualization, and machine learning techniques in predictive modeling
+
+
